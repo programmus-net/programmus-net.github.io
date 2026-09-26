@@ -593,7 +593,7 @@
         <h4>🖥️ Comment accéder à Scratch ?</h4>
         <ul>
           <li>Ouvre un navigateur (Chrome, Firefox…)</li>
-          <li>Tape <strong>«&nbsp;Scratch en ligne&nbsp;»</strong></li>
+          <li>Tape <strong>« Scratch en ligne »</strong></li>
           <li>Va sur <strong>scratch.mit.edu</strong></li>
           <li>Crée un compte gratuit</li>
           <li>Ou installe l'application Scratch</li>
@@ -631,7 +631,7 @@
         <div class="step-num">01</div>
         <div class="step-content">
           <h4>Crée ton compte Scratch</h4>
-          <p>Rends-toi sur <a href="https://scratch.mit.edu" target="_blank">scratch.mit.edu</a>, clique sur «&nbsp;Rejoindre Scratch&nbsp;» et crée ton compte gratuit. Tu pourras sauvegarder tous tes projets en ligne !</p>
+          <p>Rends-toi sur <a href="https://scratch.mit.edu" target="_blank">scratch.mit.edu</a>, clique sur « Rejoindre Scratch » et crée ton compte gratuit. Tu pourras sauvegarder tous tes projets en ligne !</p>
         </div>
       </div>
       <div class="step">
@@ -660,7 +660,7 @@
         <div class="step-num">05</div>
         <div class="step-content">
           <h4>Partage ton projet !</h4>
-          <p>Sur Scratch, tu peux publier ton jeu et des millions de personnes dans le monde pourront y jouer. Clique sur «&nbsp;Partager&nbsp;» dans l'éditeur pour le rendre public !</p>
+          <p>Sur Scratch, tu peux publier ton jeu et des millions de personnes dans le monde pourront y jouer. Clique sur « Partager » dans l'éditeur pour le rendre public !</p>
         </div>
       </div>
     </div>
@@ -735,10 +735,14 @@
     <div style="background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:28px; margin-top:32px; text-align:center;">
       <div style="font-size:2rem; margin-bottom:12px;">💡</div>
       <h3 style="margin-bottom:10px;">Astuce de pro</h3>
-      <p style="color:var(--muted); font-size:.9rem; line-height:1.7; max-width:500px; margin:0 auto;">Ne te décourage pas si quelque chose ne fonctionne pas du premier coup. <strong style="color:var(--text)">Même les meilleurs développeurs</strong> font des erreurs et cherchent des solutions. Chaque bug corrigé, c'est une leçon apprise ! Et pour t'entrainer et créer d'autres jeux, clique sur les liens car il te montrerons des petits programmes Scratch a faire et tous les sprites qu'il faudra utiliser tu aura juste à faire les même choses ! </p>
-      <a href="https://scratch.mit.edu/projects/1265113869/editor" target="_blank" style="display:inline-flex; align-items:center; gap:8px; background:rgba(56,217,169,.12); border:1px solid rgba(56,217,169,.35); color:var(--accent2); padding:12px 22px; border-radius:10px; font-weight:600; font-size:.95rem; text-decoration:none; margin-bottom:36px;">
-      Lien pour créer un jeu de ballons
-      <a/>
+      <p style="color:var(--muted); font-size:.9rem; line-height:1.7; max-width:500px; margin:0 auto 20px;">Ne te décourage pas si quelque chose ne fonctionne pas du premier coup. <strong style="color:var(--text)">Même les meilleurs développeurs</strong> font des erreurs et cherchent des solutions. Chaque bug corrigé, c'est une leçon apprise ! Et pour t'entrainer et créer d'autres jeux, clique sur les liens car ils te montreront des petits programmes Scratch à faire.</p>
+      <a href="https://scratch.mit.edu/projects/1265113869/editor" target="_blank" style="display:inline-flex; align-items:center; gap:8px; background:rgba(56,217,169,.12); border:1px solid rgba(56,217,169,.35); color:var(--accent2); padding:12px 22px; border-radius:10px; font-weight:600; font-size:.95rem; text-decoration:none;">
+        Lien pour créer un jeu de ballons
+      </a>
+    </div>
+  </div>
+</div>
+
 <!-- ══ PAGE SITE WEB ══ -->
 <div class="page" id="page-site">
   <div class="section">
@@ -800,10 +804,6 @@
           <li>Un hébergement web (OVH, Infomaniak…)</li>
         </ul>
       </div>
-      <div class="info-card">
-        <h4>🚀 Et après le HTML ?</h4>
-        <p>Le <strong>CSS</strong> te permet de styliser ta page (couleurs, polices, mise en page). Le <strong>JavaScript</strong> ajoute de l'interactivité (boutons, animations). C'est la trinité du web !</p>
-      </div>
     </div>
   </div>
 </div>
@@ -811,27 +811,43 @@
 <!-- ══ PAGE MERCI ══ -->
 <div class="page" id="page-merci">
   <div class="merci-center">
-    <div class="merci-icon">🙏</div>
-    <h2>Merciii beaucoup !!</h2>
-    <p>Un grand merci d'avoir visité notre super site sur la programmation ! On espère que tu as appris plein de choses et que tu es prêt(e) à coder de belles créations.</p>
-    <p style="margin-top:16px;">N'oublie pas : chaque grand développeur a commencé exactement là où tu en es aujourd'hui. Continue à explorer, expérimenter, et surtout… <strong style="color:var(--accent2)">prendre du plaisir à coder !</strong> 🚀</p>
+    <div class="merci-icon">🎉</div>
+    <h2>Merci pour votre visite !</h2>
+    <p>Merci d'avoir exploré Programmus. On espère que ce site vous a aidé à débuter votre aventure dans le monde du code !</p>
     <div class="confetti">
-      <span>⭐</span><span>🎉</span><span>💻</span>
-    </div>
-    <div style="margin-top:40px;">
-      <button class="btn-primary" onclick="showPage('accueil', document.querySelectorAll('.nav-btn')[0])">← Retour à l'accueil</button>
+      <span>✨</span>
+      <span>🚀</span>
+      <span>💻</span>
     </div>
   </div>
 </div>
 
+<!-- SCRIPT POUR GÉRER LE CHANGEMENT D'ONGLETS -->
 <script>
-  function showPage(id, btn) {
-    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
-    document.getElementById('page-' + id).classList.add('active');
-    if (btn) btn.classList.add('active');
+  function showPage(pageId, btnElement) {
+    // Masquer toutes les pages
+    const pages = document.querySelectorAll('.page');
+    pages.forEach(page => page.classList.remove('active'));
+
+    // Désactiver tous les boutons de navigation
+    const buttons = document.querySelectorAll('.nav-btn');
+    buttons.forEach(btn => btn.classList.remove('active'));
+
+    // Afficher la page ciblée
+    const selectedPage = document.getElementById('page-' + pageId);
+    if (selectedPage) {
+      selectedPage.classList.add('active');
+    }
+
+    // Activer le bouton cliqué
+    if (btnElement) {
+      btnElement.classList.add('active');
+    }
+
+    // Remonter en haut de la page
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 </script>
+
 </body>
 </html>
