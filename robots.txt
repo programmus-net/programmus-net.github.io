@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://tshadospbusiness-ship-it.github.io/laprogrammation/sitemap.xml
-
